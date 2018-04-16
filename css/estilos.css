@@ -25,3 +25,50 @@ header {
 #img_big_cats {
   margin-top: 3.7em;
 }
+
+h2 {
+  position: absolute;
+  top: 4.2em;
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 100vw;
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.texto {
+  color: black;
+}
+
+@media (min-width: 992px) {
+
+  body {
+    background: url('../img/big-cats.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h2 {
+    top: 3em;
+  }
+
+  #img_big_cats {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 5em;
+  }
+
+  .card {
+    width: 25em;
+    margin: 1em 1em;
+  }
+}
