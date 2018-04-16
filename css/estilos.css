@@ -41,6 +41,7 @@ h2 {
   color: black;
 }
 
+/*ESTO CAMBIA EL DISEÑO DE LA PAGINA CUANDO LA VEO EN UNA PANTALLA CON UN ANCHO DE 992px*/
 @media (min-width: 992px) {
 
   body {
